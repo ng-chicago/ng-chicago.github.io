@@ -17,8 +17,8 @@ title: ng-Chicago
 author: Mathias
 email: m@ng-chicago.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Random thoughs about mostly Angular development and
-  things you may use with your Angular application.
+  Random thoughts about mostly Angular development and
+  other things you may use with your Angular application.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AngularChicago
