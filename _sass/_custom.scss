@@ -47,8 +47,9 @@ $grey: #717171;
 .entry-meta {
   .tag {
     display: inline-block;
-    color: $grey;
+    color: $white;
     margin: 4px;
+    font-size: 0.75rem;
     &:hover {
       background-color: lighten($base-color,50);
       color: $black;
