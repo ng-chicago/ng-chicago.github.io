@@ -24,7 +24,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AngularChicago
 github_username:  ng-chicago
 disqus:
-    shortname: ng-chicago
+    shortname: ng-chicago.disqus.com
 
 # Build settings
 markdown: kramdown
