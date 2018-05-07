@@ -25,9 +25,8 @@ twitter_username: AngularChicago
 github_username: ng-chicago
 youtube_username: Mathias
 rss: rss
-#disqus:
-#    shortname: ng-chicago
-
+disqus:
+  shortname: ng-chicago
 google_analytics: UA-118775810-1
 
 # Build settings
