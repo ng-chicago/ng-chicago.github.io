@@ -28,6 +28,8 @@ rss: rss
 #disqus:
 #    shortname: ng-chicago
 
+google_analytics: UA-118775810-1
+
 # Build settings
 markdown: kramdown
 theme: minima
