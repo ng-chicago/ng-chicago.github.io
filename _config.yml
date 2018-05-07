@@ -20,13 +20,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mostly about Angular development and other random
   things you may use with your Angular applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ng-chicago.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AngularChicago
 github_username: ng-chicago
 youtube_username: Mathias
 rss: rss
 disqus:
-  shortname: ng-chicago
+  shortname: ng-chicago-github-io
 google_analytics: UA-118775810-1
 
 # Build settings
