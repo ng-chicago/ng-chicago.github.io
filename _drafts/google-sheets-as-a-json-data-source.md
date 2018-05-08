@@ -6,14 +6,13 @@ categories: "Data Source"
 tags: ["Google Sheets",  JSON]
 comments: true
 ---
-When you need a VERY simple to maintain JSON data source for your website, consider using a Google Sheet.<!--more-->  
+When you need a JSON data source that is VERY simple for users to maintain, consider using a Google Sheet.<!--more-->  
+### Google Sheets Setup ###
+if you have already published sheet, [skip down to next step](#JSONUrls). 
+#### Create ####
+#### Publish ####
 
-01 Create the sheet
-==================
-
-More text here
-
-#### Third level header ####
+### Determining The Tabs JSON URLs  ### {#JSONUrls}
  
 Spreadsheet ID
 1jgwyJCeftwM8FYnOa2ISxtwRzPsatECYJxN2u7G7cDQ
