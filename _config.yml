@@ -36,9 +36,15 @@ theme: minima
 permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 header_pages:
-  - tags/index.html
+  -
+#  - tags/index.html
 show_excerpts: true
+excerpt_separator: <!--more-->
+
+## Amount of post to show on home page
+#paginate: 25
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
