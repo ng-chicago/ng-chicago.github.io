@@ -30,6 +30,10 @@ disqus:
   shortname: ng-chicago-github-io
 google_analytics: UA-118775810-1
 
+# include twitter cards in header
+twitter:
+  username: AngularChicago
+
 # Build settings
 markdown: kramdown
 theme: minima
