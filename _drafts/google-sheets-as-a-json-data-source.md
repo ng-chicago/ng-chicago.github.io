@@ -1,21 +1,19 @@
 ---
 layout: post
 title: "Google Sheets As A JSON Data Source"
-description: Blah blah blah
 date: 2018-05-07 08:06:15 -0500
 categories: "Data Source"
 tags: ["Google Sheets",  JSON]
 comments: true
 ---
-Post text here
+When you need a VERY simple to maintain JSON data source for your website, consider using a Google Sheet.<!--more-->  
 
- --- tldr;
- - Very Simple For anyone to maintain
- - Probably not good for VERY high volume (hits)
- <!--more-->
- 
- 
- 
+01 Create the sheet
+==================
+
+More text here
+
+#### Third level header ####
  
 Spreadsheet ID
 1jgwyJCeftwM8FYnOa2ISxtwRzPsatECYJxN2u7G7cDQ

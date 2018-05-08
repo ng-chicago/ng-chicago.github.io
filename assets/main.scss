@@ -1,5 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// custom css below
+
 // ROUND CORNERS
-// --------------------------------------------------
 // .rounded(VALUE);
 @mixin rounded($radius:4px) {
   -webkit-border-radius : $radius;
