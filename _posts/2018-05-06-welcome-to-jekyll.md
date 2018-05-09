@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll"
 date:   2018-05-06 07:45:10 -0500
 tags: ["Jekyll Hello World"]
 comments: true
-image: "/assets/apple-touch-icon-180x180.png"
+image: "/assets/brian.jpg"
 ---
 
 The auto-generated new Jekyll site post.<!--more-->  
