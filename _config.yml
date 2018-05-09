@@ -17,8 +17,7 @@ title: ng-Chicago
 author: Mathias
 email: m@ng-chicago.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Angular development and other random
-  things I may use with my Angular applications.
+  Angular development notes and other random schtuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ng-chicago.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AngularChicago
@@ -34,6 +33,7 @@ title_image: "/assets/apple-touch-icon-180x180.png"
 # include twitter cards in header
 twitter:
   username: AngularChicago
+  card: summary
 
 # Build settings
 markdown: kramdown
