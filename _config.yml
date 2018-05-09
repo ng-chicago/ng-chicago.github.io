@@ -29,6 +29,7 @@ rss: rss
 disqus:
   shortname: ng-chicago-github-io
 google_analytics: UA-118775810-1
+title_image: "/assets/apple-touch-icon-180x180.png"
 
 # include twitter cards in header
 twitter:
