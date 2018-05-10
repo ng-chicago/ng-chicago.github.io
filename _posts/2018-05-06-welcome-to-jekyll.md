@@ -4,7 +4,6 @@ title:  "Welcome to Jekyll"
 date:   2018-05-06 07:45:10 -0500
 tags: ["Jekyll Hello World"]
 comments: true
-author: AngularChicago
 ---
 
 The auto-generated new Jekyll site post.<!--more-->  

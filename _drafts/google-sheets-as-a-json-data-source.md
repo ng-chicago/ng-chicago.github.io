@@ -7,6 +7,14 @@ tags: ["Google Sheets",  JSON]
 comments: true
 ---
 When you need a JSON data source that is VERY simple for users to maintain, consider using a Google Sheet.<!--more-->  
+
+<nav>
+  <h4>Table of Contents</h4>
+  * this unordered seed list will be replaced by toc as unordered list
+  {:toc}
+</nav>
+
+
 ### Google Sheets Setup ###
 if you have already published sheet, [skip down to next step](#JSONUrls). 
 #### Create ####

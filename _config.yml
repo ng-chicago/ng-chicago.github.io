@@ -37,13 +37,15 @@ twitter:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 theme: minima
 permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 header_pages:
-  -
+  - tags/index.html
 
 #  - tags/index.html
 show_excerpts: true
