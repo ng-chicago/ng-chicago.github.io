@@ -22,3 +22,28 @@ layout: default
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+<br/>
+<br/>
+
+Go to  <a href="{{site.url}}"> the main page </a>.
+<br/>
+<br/>
+
+Or maybe you're looking for one of the latest posts:
+
+<br/>
+<br/>
+
+<!-- display all the posts list on the front page -->
+<div id="postlist">
+  <ul class="posts">
+    {% for post in site.posts limit:10 %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo;
+      <a href="{{ post.url }}">{{post.title }}</a>
+      <div class="excerpt">{{ post.description }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

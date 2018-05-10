@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e8eee69a-8ba3-42bf-bcdc-ea1f10a5003e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,17 +29,20 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            <state relative-caret-position="539">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tags/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+      <file leaf-file-name="jekyll-site-to-do-list.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_drafts/jekyll-site-to-do-list.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="432">
+                <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -48,22 +51,19 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <first_editor relative-caret-position="144">
+                <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google-sheets-as-a-json-data-source.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="252">
-                <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,6 +82,8 @@
       <find>author</find>
       <find>og:image</find>
       <find>favicon</find>
+      <find>post in site.posts</find>
+      <find>og:desc</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -108,16 +110,20 @@
         <option value="$PROJECT_DIR$/_includes/social.html" />
         <option value="$PROJECT_DIR$/gemfile" />
         <option value="$PROJECT_DIR$/_drafts/2018-05-07-google-sheets-as-a-json-data-source.md" />
-        <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_sass/main.scss" />
         <option value="$PROJECT_DIR$/_sass/_custom.scss" />
-        <option value="$PROJECT_DIR$/assets/main.scss" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md" />
         <option value="$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/tags/index.html" />
+        <option value="$PROJECT_DIR$/_drafts/google-sheets-to-firebase.md" />
+        <option value="$PROJECT_DIR$/_drafts/01-jekyll-site-to-do-list.md" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/assets/main.scss" />
+        <option value="$PROJECT_DIR$/_drafts/jekyll-site-to-do-list.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -248,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +274,17 @@
             <path>
               <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng-chicago.github.io_jekyll" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng-chicago.github.io_jekyll" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng-chicago.github.io_jekyll" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
@@ -280,6 +295,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,14 +570,20 @@
       <option name="project" value="LOCAL" />
       <updated>1525889340967</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="updating tags page and working on drafts">
+      <created>1525960237285</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1525960237285</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="23" width="1327" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19678408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29402757" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32867134" />
@@ -605,30 +627,10 @@
     <MESSAGE value="testing twitter cards" />
     <MESSAGE value="adding some images" />
     <MESSAGE value="more twitter card testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="more twitter card testing" />
+    <MESSAGE value="updating tags page and working on drafts" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating tags page and working on drafts" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/social.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="339" selection-start-line="21" selection-start-column="339" selection-end-line="21" selection-end-column="339" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="11" selection-start-line="18" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_drafts/2018-05-07-google-sheets-as-a-json-data-source.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -718,21 +720,7 @@
     <entry file="file://$PROJECT_DIR$/_sass/main.scss" />
     <entry file="file://$PROJECT_DIR$/_sass/_custom.scss" />
     <entry file="file://$PROJECT_DIR$/comments/placeholder.md" />
-    <entry file="file://$PROJECT_DIR$/assets/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staticman.yml" />
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="101" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -748,13 +736,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/apple-touch-icon.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/social.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="21" column="339" selection-start-line="21" selection-start-column="339" selection-end-line="21" selection-end-column="339" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
@@ -778,28 +759,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md">
+    <entry file="file://$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="396">
+            <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="51" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/google-sheets-to-firebase.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#795#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/social.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="21" column="339" selection-start-line="21" selection-start-column="339" selection-end-line="21" selection-end-column="339" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-06-welcome-to-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="252">
-            <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -807,15 +836,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state relative-caret-position="539">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tags/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+    <entry file="file://$PROJECT_DIR$/_drafts/jekyll-site-to-do-list.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="432">
+            <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

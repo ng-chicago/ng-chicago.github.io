@@ -29,6 +29,7 @@ disqus:
   shortname: ng-chicago-github-io
 google_analytics: UA-118775810-1
 title_image: "/assets/apple-touch-icon-180x180.png"
+future: true
 
 # include twitter cards in header
 twitter:
@@ -47,9 +48,8 @@ plugins:
 header_pages:
   - tags/index.html
 
-#  - tags/index.html
-show_excerpts: true
-excerpt_separator: <!--more-->
+#show_excerpts: true
+#excerpt_separator: <!--more-->
 
 ## Amount of post to show on home page
 #paginate: 25
