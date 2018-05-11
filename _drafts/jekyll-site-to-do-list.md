@@ -5,25 +5,23 @@ date: 2021-05-10 09:09:16 -0500
 categories: category1 category2
 tags: ["Two Words",  OneTag]
 comments: true
+description: "Things I want to do/fix with this Jekyll Blog"
 ---
-Things I want to do/fix with this Jekyll Blog<!--more-->  
-
 * my toc
-{:toc}
+{:toc}  
 
+## To-Do
+### Site Stuff (Fix/Implement)
+- [x] Add pagination  
 
-### To-Do ###
-Blah blah blah, [skip down to next heading](#JumpHere). 
-#### Sub Heading 1
-#### Sub Heading 2
+### Post Ideas
+- [x] Add twitter card stuff  
 
-The rest of the more detailed post here
-
-### Complete ### {#JumpHere}
+## Complete
 - [x] Add twitter card stuff
 - [x] Add google analytics
 - [x] Custom permalink
-- [x] Excerpts on main page
+- [x] Set uo Disqus for comments
 - [x] Keyboard Maestro post shell generation "ngpost"
 
 
@@ -34,7 +32,7 @@ The rest of the more detailed post here
 
 ~~~
 
-
+This is [a link](http://rubyforge.org){:target="_blank"} to a page.
 
 
 
