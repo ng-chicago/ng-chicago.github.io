@@ -19,4 +19,4 @@ I noticed this yesterday when Twitter tested a [news article](https://twitter.co
 
 You can easily measure before and after engagement and it may seem like your attempts are effective, but how do you measure how your core users now feel about your platform after annoying tactics designed to manipulate?
  
-_Before_ you start to build any new social platform, you should probably FIRST have an answer to this question: **_What will you need to do in the future to keep the users engaged (and happy)?_**
+_Before_ you start to build any new social platform, you should probably FIRST have an answer to this question: **_What will you need to do in the future to keep users engaged (and happy)?_**
