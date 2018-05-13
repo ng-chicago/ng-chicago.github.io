@@ -87,6 +87,9 @@ h2, h3, h4, h5, h6 {
   padding-bottom: 0.3em;
   background: url(/assets/bg_hr.png) repeat-x bottom;  //underline
 }
+h3 {
+  margin-bottom: 0;
+}
 .post-content h2 {
   font-size: 1.4em;
 }
@@ -132,4 +135,8 @@ a.pagination-step, span.pagination-step {
     padding: 0 15px;
     width: auto;
   }
+}
+
+.post-header {
+  margin-bottom: 15px;
 }
