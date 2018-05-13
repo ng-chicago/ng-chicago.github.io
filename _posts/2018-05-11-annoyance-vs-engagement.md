@@ -7,7 +7,7 @@ tags: ["IMHO"]
 comments: true
 description: "Attempts to keep users engaged quite often leaves users enraged."
 ---  
-**IMHO**: {{ page.description }}
+**IMHO**: {{ page.description }}   
 
 It's a pattern that happens over and over again.
 

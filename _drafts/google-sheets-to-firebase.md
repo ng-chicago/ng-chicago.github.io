@@ -5,8 +5,11 @@ date: 2018-05-10 08:35:36 -0500
 categories: category1 category2
 tags: ["Two Words",  OneTag]
 comments: true
----
-Post excerpt on main page<!--more-->  
+description: "POST SUMMARY FOR TWITTER CARD"
+---  
+{{ page.description }}  
+* my toc
+{:toc}  
 
 First level header
 ==================

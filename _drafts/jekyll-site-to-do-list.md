@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Jekyll Site To-Do List"
-date: 2021-05-10 09:09:16 -0500
-categories: category1 category2
-tags: ["Two Words",  OneTag]
+date: 2018-05-11 11:54:16 -0500
+categories: GeneralThoughts
+tags: ["IMHO"]
 comments: true
 description: "Things I want to do/fix with this Jekyll Blog"
----
+---  
+{{ page.description }}  
 * my toc
 {:toc}  
 

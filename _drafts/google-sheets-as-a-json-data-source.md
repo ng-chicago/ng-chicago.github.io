@@ -5,16 +5,11 @@ date: 2018-05-07 08:06:15 -0500
 categories: "Data Source"
 tags: ["Google Sheets",  JSON]
 comments: true
+description: "When you need a JSON data source that is VERY simple for users to maintain, consider using a Google Sheet."
 ---
-When you need a JSON data source that is VERY simple for users to maintain, consider using a Google Sheet.<!--more-->  
-
-<nav>
-  <h4>Table of Contents</h4>
-  * this unordered seed list will be replaced by toc as unordered list
-  {:toc}
-</nav>
-
-
+{{ page.description }}  
+* my toc
+{:toc}  
 ### Google Sheets Setup ###
 if you have already published sheet, [skip down to next step](#JSONUrls). 
 #### Create ####
