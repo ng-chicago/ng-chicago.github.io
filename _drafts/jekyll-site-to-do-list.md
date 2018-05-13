@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll Site To-Do List"
-date: 2018-05-11 11:54:16 -0500
+date: 2021-05-11 11:54:16 -0500
 categories: GeneralThoughts
 tags: ["IMHO"]
 comments: true
@@ -10,15 +10,14 @@ description: "Things I want to do/fix with this Jekyll Blog"
 {{ page.description }}  
 * my toc
 {:toc}  
-
 ## To-Do
 ### Site Stuff (Fix/Implement)
-- [x] Add pagination  
+- [x] Fix pagination  newer/older on dingle line with arrows?
 
 ### Post Ideas
-- [x] Add twitter card stuff  
 
-## Complete
+
+## Completed Items
 - [x] Add twitter card stuff
 - [x] Add google analytics
 - [x] Custom permalink

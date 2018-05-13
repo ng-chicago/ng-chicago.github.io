@@ -49,7 +49,7 @@ plugins:
 header_pages:
   - tags/index.html
 
-paginate: 2
+paginate: 4
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
