@@ -49,6 +49,8 @@ plugins:
 header_pages:
   - tags/index.html
 
+paginate: 2
+
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
