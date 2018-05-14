@@ -18,7 +18,7 @@ layout: default
                 </a>
             </h3>
             {%- if site.show_excerpts -%}
-            {{ post.description }}
+            <div class="excerpt">{{ post.description }}</div>
             {%- endif -%}
         </li>
         {%- endfor -%}
