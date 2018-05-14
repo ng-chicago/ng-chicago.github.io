@@ -96,37 +96,32 @@ h3 {
 .post-content h3 {
   font-size: 1.2em;
 }
-
 .pagination-wrapper {
   text-align: center;
+  font-size: 14px;
 }
-
 .pagination {
   display: inline-block;
   margin: 0 0 2rem;
   a, span {
     border-radius: 3px;
     float: left;
-    height: 36px;
-    line-height: 36px;
+    height: 30px;
+    line-height: 30px;
     width: 30px;
   }
 }
-
 a.pagination-step, span.pagination-step {
   padding: 0 10px;
   width: auto;
 }
-
 .pagination-first, .pagination-last, .pagination-more {
   display: none;
 }
-
 .pagination .active {
   background: #ddd;
   color: #fff;
 }
-
 @media (min-width: 38em) {
   .pagination-first, .pagination-last, .pagination-more {
     display: block;
@@ -136,10 +131,9 @@ a.pagination-step, span.pagination-step {
     width: auto;
   }
 }
-
 .post-header {
   margin-bottom: 15px;
 }
 .excerpt {
-  padding-left: 20px;
+  padding-left: 30px;
 }

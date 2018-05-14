@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll Site To-Do List"
+title: "To-Do List For Jekyll Site"
 date: 2021-05-11 11:54:16 -0500
 categories: GeneralThoughts
 tags: ["IMHO", ToDo]
