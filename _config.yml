@@ -31,6 +31,7 @@ google_analytics: UA-118775810-1
 title_image: "/assets/apple-touch-icon-180x180.png"
 future: true
 show_excerpts: true
+highlighter: rouge
 
 # include twitter cards in header
 twitter:

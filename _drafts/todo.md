@@ -12,10 +12,13 @@ description: "Things I want to do/fix with this Jekyll Blog"
 {:toc}  
 ## To-Do
 ### Site Stuff (Fix/Implement/Post Ideas)
-- [ ] Make list here
+- [ ] Post: Angular Upgrade
+- [ ] Post: Google Sheets As A JSON Data Source
+- [ ] Post: Google Sheets To Firebase
 
 
-## Completed Items
+
+### Completed Items (use nnow for timestamp)
 - [x] Fix pagination newer/older on single line (05/13/2018  1:01:40 PM)
 - [x] Version 2 of Icon (05/13/2018  9:01:46 AM)
 - [x] Add pagination 
@@ -23,14 +26,21 @@ description: "Things I want to do/fix with this Jekyll Blog"
 - [x] Add google analytics
 - [x] Custom permalink
 - [x] Set up Disqus for comments
-- [x] Keyboard Maestro post shell generation "ngpost"
+- [x] Keyboard Maestro form post shell generation "ngpost"
 
 
-~~~ typescript
+{% highlight typescript %}
+export const staggerIn = animation([
+  query(':enter', style({ opacity: 0 }), { optional: true }),
+  query(':enter', stagger('100ms', [
+    animate('1s', style({ opacity: 1 }))
+  ]), { optional: true })
+]);
+{% endhighlight %}
 
-  42
+[rouge highlighter wiki](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers){:target="_blank"}
 
-~~~
+
 
 This is [a link](http://rubyforge.org){:target="_blank"} to a page.
 
