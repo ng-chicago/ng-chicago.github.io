@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_drafts/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/todo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,14 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="5" column="3764" selection-start-line="5" selection-start-column="3764" selection-end-line="5" selection-end-column="3764" />
+            <state relative-caret-position="342">
+              <caret line="5" column="3777" lean-forward="true" selection-start-line="5" selection-start-column="3777" selection-end-line="5" selection-end-column="3777" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#div#0;n#header#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -156,11 +167,11 @@
         <option value="$PROJECT_DIR$/_drafts/jekyll-site-to-do-list.md" />
         <option value="$PROJECT_DIR$/_drafts/to-do.md" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/assets/main.scss" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_drafts/todo.md" />
         <option value="$PROJECT_DIR$/_drafts/angular-upgrade-5.2.9-to-6.md" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/assets/main.scss" />
       </list>
     </option>
   </component>
@@ -308,6 +319,11 @@
               <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng-chicago.github.io_jekyll" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng-chicago.github.io_jekyll" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
@@ -931,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -981,11 +990,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="5" column="3764" selection-start-line="5" selection-start-column="3764" selection-end-line="5" selection-end-column="3764" />
+        <state relative-caret-position="342">
+          <caret line="5" column="3777" lean-forward="true" selection-start-line="5" selection-start-column="3777" selection-end-line="5" selection-end-column="3777" />
           <folding>
             <element signature="n#src#0;n#img#0;n#div#0;n#header#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
         </state>
       </provider>
     </entry>
