@@ -10,7 +10,7 @@ description: "Angular 6 PWA With Perfect (almost) Audit Score"
 {{ page.description }}  
 
 I wanted a perfect base PWA to use as a starting point for new apps.  
-By applying just a few extra steps listed below, I got an [almost perfect](#almost) score
+By applying the few extra steps listed below, I got an [almost perfect](#almost) score.  
 All very simple.  
 
 ![My score]({{ "/assets/posts/2018/2018-05-18-BasePWA.png" | absolute_url }})

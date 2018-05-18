@@ -4,6 +4,7 @@
     <list default="true" id="e8eee69a-8ba3-42bf-bcdc-ea1f10a5003e" name="Default" comment="minor tweaking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_drafts/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/todo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,20 +28,20 @@
         <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="497">
-                <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="118" />
+              <first_editor relative-caret-position="216">
+                <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base-angular-6-pwa.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_drafts/base-angular-6-pwa.md">
+      <file leaf-file-name="2018-05-18-base-angular-6-pwa.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="567">
-                <caret line="72" column="44" lean-forward="true" selection-start-line="16" selection-end-line="72" selection-end-column="44" />
+              <first_editor relative-caret-position="216">
+                <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               </first_editor>
               <second_editor />
             </state>
@@ -125,9 +126,10 @@
         <option value="$PROJECT_DIR$/_drafts/angular-svg-animation-with-greensock.md" />
         <option value="$PROJECT_DIR$/_drafts/2018-05-17-angular-upgrade-5.2.9-to-6.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-18-angular-upgrade-5.2.9-to-6.md" />
-        <option value="$PROJECT_DIR$/_drafts/todo.md" />
         <option value="$PROJECT_DIR$/_drafts/base-angular-6-pwa-with-perfect-audit-score.md" />
         <option value="$PROJECT_DIR$/_drafts/base-angular-6-pwa.md" />
+        <option value="$PROJECT_DIR$/_drafts/todo.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md" />
       </list>
     </option>
   </component>
@@ -310,6 +312,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_drafts" />
       <recent name="$PROJECT_DIR$/tags" />
       <recent name="$PROJECT_DIR$" />
@@ -689,7 +692,7 @@
     <frame x="61" y="23" width="1379" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1730486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14948453" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32867134" />
@@ -972,18 +975,18 @@
     <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="497">
-            <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="118" />
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_drafts/base-angular-6-pwa.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="567">
-            <caret line="72" column="44" lean-forward="true" selection-start-line="16" selection-end-line="72" selection-end-column="44" />
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
