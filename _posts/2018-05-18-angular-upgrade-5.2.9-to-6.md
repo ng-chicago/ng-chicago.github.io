@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular Update 5.2.9 to 6.0.1"
-date:  2018-05-18 13:44:28 -0500
+date:  2018-05-18 11:44:28 -0500
 categories: Angular
 tags: [Angular]
 comments: true
