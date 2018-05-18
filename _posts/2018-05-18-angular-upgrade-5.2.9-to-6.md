@@ -5,7 +5,7 @@ date:  2018-05-18 13:44:28 -0500
 categories: Angular
 tags: [Angular]
 comments: true
-description: "Q: How hard is upgrade to Angular 6?"
+description: "Q: How hard an upgrade to Angular 6?"
 ---  
 {{ page.description }}  
 

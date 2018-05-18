@@ -29,31 +29,19 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="594">
-                <caret line="32" column="118" lean-forward="true" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
+                <caret line="32" column="118" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-05-17-angular-upgrade-5.2.9-to-6.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_drafts/2018-05-17-angular-upgrade-5.2.9-to-6.md">
+      <file leaf-file-name="2018-05-18-angular-upgrade-5.2.9-to-6.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-18-angular-upgrade-5.2.9-to-6.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-svg-animation-with-greensock.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_drafts/angular-svg-animation-with-greensock.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,6 +126,7 @@
         <option value="$PROJECT_DIR$/_drafts/angular-svg-animation-with-greensock.md" />
         <option value="$PROJECT_DIR$/_drafts/todo.md" />
         <option value="$PROJECT_DIR$/_drafts/2018-05-17-angular-upgrade-5.2.9-to-6.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-18-angular-upgrade-5.2.9-to-6.md" />
       </list>
     </option>
   </component>
@@ -289,6 +278,11 @@
               <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng-chicago.github.io_jekyll" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng-chicago.github.io_jekyll" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ng-chicago.github.io_jekyll" type="b2602c69:ProjectViewProjectNode" />
@@ -748,13 +742,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="minor tweaking" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="16" lean-forward="true" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-05-welcome-to-jekyll.md" />
     <entry file="file://$PROJECT_DIR$/blog/atom.xml" />
@@ -956,17 +943,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="288">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="594">
-            <caret line="32" column="118" lean-forward="true" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
+            <caret line="16" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>
@@ -977,6 +954,26 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="450">
             <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="594">
+            <caret line="32" column="118" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-18-angular-upgrade-5.2.9-to-6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
