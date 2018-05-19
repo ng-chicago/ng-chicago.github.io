@@ -10,7 +10,7 @@ description: "Angular 6 PWA With Perfect (almost) Audit Score"
 {{ page.description }}  
 
 I wanted a perfect base PWA to use as a starting point for new apps.  
-By applying the few extra steps listed below, I got an [almost perfect](#almost) score.  
+By applying the few extra steps listed below, I was able to get an [almost perfect](#almost) score.  
 All very simple.  
 
 ![My score]({{ "/assets/posts/2018/2018-05-18-BasePWA.png" | absolute_url }})
@@ -67,7 +67,7 @@ All very simple.
     git remote add origin https://github.com/ng-chicago/AngularBasePWA.git  
     git push -u origin master  
 
-### Other Notes {#almost} 
+### Notes {#almost} 
     My host does not offer HTTP2 - So I was dinged on the Best Practices number 
     Some browser Extensions will slow down things and lower scores  
         (turn them all off while testing)   

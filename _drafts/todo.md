@@ -11,6 +11,7 @@ description: "Things I want to do/fix"
 * my toc
 {:toc}  
 ### Fix/Implement/Do/Post Ideas
+- [ ] Task: Turn this Jekyll blog into a PWA
 - [ ] Post: GreenSock Angular Animation
 - [ ] Post: Google Sheets As A JSON Data Source
 - [ ] Post: Google Sheets To Firebase
