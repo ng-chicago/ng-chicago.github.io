@@ -1,0 +1,56 @@
+======
+https://keybase.io/ngchicago
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ng-chicago.github.io
+  * I am ngchicago (https://keybase.io/ngchicago) on keybase.
+  * I have a public key ASDQTaP5VtO4Ow3SKZkydBaFANoFQcjnAETM8vMGT4W6AAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d04da3f956d3b83b0dd229993274168500da0541c8e70044ccf2f3064f85ba000a",
+      "host": "keybase.io",
+      "kid": "0120d04da3f956d3b83b0dd229993274168500da0541c8e70044ccf2f3064f85ba000a",
+      "uid": "40a37983286083ca9e9fbe73a2371d19",
+      "username": "ngchicago"
+    },
+    "merkle_root": {
+      "ctime": 1526817652,
+      "hash": "85af7b702aa1b97d8a30c5ca5b6db0c93af602d51ac2534016d5341c4fe804f736954b904024b1e493161e35f1230fd285e6d14007d93f1858c5ceaa1aa118a8",
+      "hash_meta": "5e3cd94c921f76c91816d648cef7bb2f6acb871918a0e38d9a68a9a501d535af",
+      "seqno": 2836514
+    },
+    "service": {
+      "entropy": "sLnHz1XMZo/aXfoyRqip1wMT",
+      "hostname": "ng-chicago.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1526817798,
+  "expire_in": 504576000,
+  "prev": "e0d3de91b6268cede836fe335b3dfce8aa9b7b0add6b129a9e8d2441b7aed1c9",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0E2j+VbTuDsN0imZMnQWhQDaBUHI5wBEzPLzBk+FugAKp3BheWxvYWTESpcCBcQg4NPekbYmjO3oNv4zWz386KqbewrdaxKano0kQbeu0cnEIDnXV83I2Kb23Z3a3BjXgzPrpNhX+L3vHZrXwReFhIESAgHCo3NpZ8RAdTjhE4h3dqdNhuAgRxCM1Nk9r4hW7FRVHXIDqVf9h39wmHB+ZXmvsLp23IILbtGM/uLENjVBYxIFn0Fh7CwmAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB6NA7hC5A3fbWhrO1YPWDGzomIVPuHckKOCba7ywE1Uo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ngchicago
+
+==================================================================
