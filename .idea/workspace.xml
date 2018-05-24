@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8eee69a-8ba3-42bf-bcdc-ea1f10a5003e" name="Default" comment="minor tweaking">
+      <change afterPath="$PROJECT_DIR$/_posts/2018-05-24-google-sheets-as-a-json-data-source.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_drafts/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/todo.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,23 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="google-sheets-as-a-json-data-source.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+      <file leaf-file-name="todo.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="136">
+                <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -78,6 +79,7 @@
       <find>svg</find>
       <find>&lt;img</find>
       <find>spread</find>
+      <find>&amp;#8482;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -131,11 +133,11 @@
         <option value="$PROJECT_DIR$/assets/keybase.svg" />
         <option value="$PROJECT_DIR$/_includes/social.html" />
         <option value="$PROJECT_DIR$/_includes/social.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_drafts/todo.md" />
         <option value="$PROJECT_DIR$/_drafts/new-items-to-see.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md" />
+        <option value="$PROJECT_DIR$/_drafts/todo.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -319,8 +321,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_drafts" />
       <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/_drafts" />
       <recent name="$PROJECT_DIR$/tags" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_sass" />
@@ -952,16 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="522">
-            <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -986,20 +978,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_drafts/google-sheets-as-a-json-data-source.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-24-google-sheets-as-a-json-data-source.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="54">
             <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="136">
+            <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
