@@ -12,7 +12,6 @@ description: "Things I want to do/fix"
 {:toc}  
 ### Fix/Implement/Do/Post Ideas
 - [ ] Post: New Items To See
-- [ ] Task: Add Last Viewed Service to Genesis.FYI For Q&A
 - [ ] Task: Turn this Jekyll blog into a PWA
 - [ ] Post: GreenSock Angular Animation
 - [ ] Post: Google Sheets To Firebase
@@ -33,6 +32,7 @@ This is [a sample link](http://rubyforge.org){:target="_blank"} to a page.
 
 
 ### Completed Items (use nnow for timestamp)
+- [x] Task: Add Last Viewed Service to Genesis.FYI For Q&A (05/26/2018 9:36 AM)
 - [x] Post: Google Sheets As A JSON Data Source (05/24/2018 9:55 AM)
 - [x] Task: Add Keybase to social links (05/20/2018 9:46 AM)
 - [x] Post: Create base Angular 6 app in GitHub (05/18/2018 4:15 PM)
