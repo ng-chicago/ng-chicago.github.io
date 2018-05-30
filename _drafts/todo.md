@@ -30,7 +30,6 @@ export const staggerIn = animation([
 
 This is [a sample link](http://rubyforge.org){:target="_blank"} to a page.
 
-
 ### Completed Items (use nnow for timestamp)
 - [x] Task: Add Last Viewed Service to Genesis.FYI For Q&A (05/26/2018 9:36 AM)
 - [x] Post: Google Sheets As A JSON Data Source (05/24/2018 9:55 AM)

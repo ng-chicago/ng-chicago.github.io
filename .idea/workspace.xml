@@ -27,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="204">
-                <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+              <first_editor relative-caret-position="132">
+                <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,7 +138,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="61" />
     <option name="y" value="23" />
     <option name="width" value="1379" />
@@ -686,7 +686,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1379" height="877" extended-state="6" />
+    <frame x="61" y="23" width="1379" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28939617" />
@@ -986,8 +986,8 @@
     <entry file="file://$PROJECT_DIR$/_drafts/todo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="204">
-            <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <first_editor relative-caret-position="132">
+            <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
           </first_editor>
           <second_editor />
         </state>
