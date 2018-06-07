@@ -3,13 +3,13 @@ layout: nil
 ---
 
 [
-{% for post in site.posts %}
+{% for post in site.posts limit: 2 %}
 {
 "title"    : "{{ post.title }}",
 "url"     : "{{ post.url }}",
 "date"     : "{{ post.date | date: "%B %d, %Y" }}",
 "description"  : {{ post.description | jsonify }},
-"content"  : {{ post.content   | jsonify }}
+"content"  : {{ post.content  | jsonify }}
 } {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 ]
