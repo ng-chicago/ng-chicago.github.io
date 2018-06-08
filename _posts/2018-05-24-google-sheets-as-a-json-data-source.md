@@ -58,7 +58,7 @@ That will give you [JSON like this](https://spreadsheets.google.com/feeds/list/1
 1. It may take up to 5 minutes published changes made in the sheet. Usually happens in a few seconds.   
 2. The IDs for the sheet & tabs never changes. Even if they are renamed.  
 3. Somehow it's smart enough to know the first row is the header.  
-        (view > freeze > 1 row )  
+        (I used: *view > freeze > 1 row* on the first row )  
 4. Any data under the first empty row will not show in the JSON.  
 5. feed.entry will always contain a record for each row in your tab.  
 6. If the user renames a header, that MAY cause issues if you go after attributes by name.  
