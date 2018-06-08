@@ -45,7 +45,7 @@ The ID for each of the tabs can be found after the final slash in these values
 <div style="border: 1px solid black; margin-left: 60px; width: 455px;"  markdown="1">
 ![screenshot]({{ "/assets/posts/2018/2018-05-24-FirefoxJSON.png" | absolute_url }}){:height="400 px"}
 </div>
-The JSON will be formatted pretty if you view it in FireFox.  
+Tip: The JSON will be formatted pretty if you view it in FireFox.  
 <br/>
 ### 4. A JSON link <ins>for EACH tab</ins>
 Manually build a URL with the following pieces
