@@ -3,7 +3,7 @@ layout: nil
 ---
 
 [
-{% for post in site.posts limit: 10 %}
+{% for post in site.posts limit: 1 %}
 {
 "title"    : "{{ post.title }}",
 "url"     : "{{ post.url }}",
