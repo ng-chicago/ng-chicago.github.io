@@ -50,7 +50,7 @@ Tip: The JSON will be formatted pretty if you view it in FireFox.
 ### 4. A JSON link <ins>for EACH tab</ins>
 Manually build a URL with the following pieces
 https://spreadsheets.google.com/feeds/list/{yourSheetID}/{yourTabID}/public/full?alt=json  
-That will give you [JSON like this](https://spreadsheets.google.com/feeds/list/1bPW98SzQ5SRsincyVGdP3ctM8ey3oSpncnyo9ASFUDM/omyavzt/public/full?alt=json){:target="_blank"} for Dogs tab which contains the data in one tab.  
+That will give you [JSON like this](https://spreadsheets.google.com/feeds/list/1bPW98SzQ5SRsincyVGdP3ctM8ey3oSpncnyo9ASFUDM/omyavzt/public/full?alt=json){:target="_blank"} for the Dogs tab which contains the data in one tab.  
 [Cats tab](https://spreadsheets.google.com/feeds/list/1bPW98SzQ5SRsincyVGdP3ctM8ey3oSpncnyo9ASFUDM/o9ws5hl/public/full?alt=json){:target="_blank"}  
 [AllOthers tab](https://spreadsheets.google.com/feeds/list/1bPW98SzQ5SRsincyVGdP3ctM8ey3oSpncnyo9ASFUDM/od6/public/full?alt=json){:target="_blank"}  
 <br/><br/>
