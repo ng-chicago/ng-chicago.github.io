@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8eee69a-8ba3-42bf-bcdc-ea1f10a5003e" name="Default" comment="minor tweaking">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_drafts/google-sheets-to-firebase.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/google-sheets-to-firebase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="234">
-                <caret line="13" column="109" selection-start-line="13" selection-start-column="109" selection-end-line="13" selection-end-column="109" />
+              <first_editor relative-caret-position="292">
+                <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -991,8 +991,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="234">
-            <caret line="13" column="109" selection-start-line="13" selection-start-column="109" selection-end-line="13" selection-end-column="109" />
+          <first_editor relative-caret-position="292">
+            <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
           </first_editor>
           <second_editor />
         </state>

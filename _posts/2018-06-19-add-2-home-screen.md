@@ -53,13 +53,15 @@ You can listen for when the app is added to the home screen in Chrome & Edge[^1]
   
 #### Launched from Home Screen (standalone)  #### 
 You can detect if your app was opened from a button on the home screen.[^2]   
-Works with these browsers:
+Works with these mostly mobile browsers:
  * Chrome 67.0.3396.87
  * Chrome beta 68.0.3440.23
  * Firefox 60.0.2
  * <s>Firefox beta 61.0b13 - DOES NOT WORK</s>
  * Opera 46.3.2246.127744
  * Edge 42.0.0.2033
+ * Desktop Chrome 67.0.3396.87
+ * <s>Desktop Chrome 69.0.3464.0 canary - DOES NOT WORK</s>
     
 <strong>In your CSS</strong>  
 
@@ -82,7 +84,8 @@ Works with these browsers:
  * Add logic to detect browser & version?
 
 #### Random Notes  ####
- * Clearing browsing data in Edge sometimes does not stop spinning? (06/19/2018)  
+ * -- Clearing browsing data in Edge sometimes does not stop spinning? (06/19/2018)<br><br>
+ * -- If you open the app from the Chrome Desktop apps screen, it may open a standalone window, but not give focus to that window (Mac Chrome). You can access the app from the new icon in the dock.<br><br>
 
 #### Reference Articles  ####
 [Chrome 68 snack-bar ignores preventDefault()](https://developers.google.com/web/updates/2018/06/a2hs-updates){:target="_blank"}
