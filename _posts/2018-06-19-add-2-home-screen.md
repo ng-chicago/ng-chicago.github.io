@@ -19,15 +19,14 @@ Getting users to add a home screen shortcut to your [PWA](https://developers.goo
 **[FireFox](https://developer.mozilla.org/en-US/Apps/Progressive/Add_to_home_screen){:target="_blank"}** adds a A2HS icon/button to the browser address bar for qualifying PWAs. I would guess that almost all users do not know what that icon does. Currently this icon shows even if it has already been used
 
 
-
-
-
-
-
-
-
 #### Source Code (still in progress)  ####
 [https://github.com/ng-chicago/AddToHomeScreen](https://github.com/ng-chicago/AddToHomeScreen){:target="_blank"}
+
+#### Working Example  ####
+[Running on Glitch](https://a2hs.glitch.me/){:target="_blank"}
+
+
+
 
 
 #### Functionality (Chrome & Edge)  ####
