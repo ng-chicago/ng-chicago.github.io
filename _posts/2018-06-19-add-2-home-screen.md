@@ -107,6 +107,7 @@ Works with these mostly mobile browsers:
 
 #### Next Steps  #### 
  * Add logic to detect browser & version?
+ * Test what happens if prompt is placed in local storage
 
 #### Random Notes  ####
  * -- Clearing browsing data in Edge sometimes does not stop spinning? (06/19/2018)<br><br>
