@@ -25,10 +25,6 @@ Getting users to add a home screen shortcut to your [PWA](https://developers.goo
 #### Working Example  ####
 [Running on Glitch](https://a2hs.glitch.me/){:target="_blank"}
 
-
-
-
-
 #### Functionality (Chrome & Edge)  ####
 
  * -- Prevents browser from displaying A2HS dialog when all criteria are met.
@@ -42,7 +38,7 @@ You can use the one of the Chrome Lighthouse audit tools [^1] to tell you if the
  * > Under Passed Audits, you should see **[User can be prompted to Install the Web App]( https://developers.google.com/web/tools/lighthouse/audits/install-prompt){:target="_blank"}**
  * > If you see the above message AND you have cleared out previous installs AND browser cache for your website, you will get the prompt in browsers that support it.
  * > **Note**: Some browsers may have an engagement heuristic that requires you visit the site for a period of time before the prompt shows.
- * > Here is the [Chrome criteria](https://developers.google.com/web/fundamentals/app-install-banners/#criteria){:target="_blank"}
+ * > Here are the [Chrome criteria](https://developers.google.com/web/fundamentals/app-install-banners/#criteria){:target="_blank"}
  
  
 
@@ -66,15 +62,11 @@ You can:
     }); 
  
 
-
-
 #### Manual A2HS  #### 
 The browsers below do NOT prompt the user to A2HS, but they do offer a manual option that will then open your PWA in a standalone screen.
  * Opera - Three dots > Home Screen (available for all websites)
  * Firefox - home" icon with a plus (+) icon inside it in address bar (qualifying PWA websites only)
 
-This site has the minimum criteria for Firefox, but not Chrome?
-https://mdn.github.io/pwa-examples/a2hs/
 
 #### Listen For Install  #### 
 You can listen for when the app is added to the home screen in Chrome & Edge[^2] 
