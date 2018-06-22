@@ -65,7 +65,7 @@ You can:
 #### Manual A2HS  #### 
 The browsers below do NOT prompt the user to A2HS, but they do offer a manual option that will then open your PWA in a standalone screen.
  * Opera - Three dots > Home Screen (available for all websites)
- * Firefox - home" icon with a plus (+) icon inside it in address bar (qualifying PWA websites only)
+ * Firefox - home icon with a plus (+) icon inside it in address bar (qualifying PWA websites only)
 
 
 #### Listen For Install  #### 
@@ -124,7 +124,7 @@ Works with these mostly mobile browsers:
 
 [^2]: Edge has a second dialog to set the icon where you want on the screen. If the user selects CANCEL here, you may falsely think it was installed if only listening to the first dialog. [I'm not sure yet how to listen to the second dialog.](https://stackoverflow.com/questions/50932302/is-there-a-listener-available-for-the-2nd-add-to-home-screen-dialog-in-edge-an){:target="_blank"}
 
-[^3]: Last tested using Android 8.1.0 on 06/18/2018.
+[^3]: Last tested using Android 8.1.0 on 06/20/2018.
 
 
 
