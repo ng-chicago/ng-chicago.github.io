@@ -113,6 +113,7 @@ Works with these mostly mobile browsers:
  * -- Clearing browsing data in Edge sometimes does not stop spinning? (06/19/2018)<br><br>
  * -- If you open the app from the Chrome Desktop apps screen, it may open a standalone window, but not give focus to that window (Mac Chrome). You can access the app from the new icon in the dock.<br><br>
  * -- The Prompt could be shown multiple times after rejection in desktop Chrome. It CANNOT be shown after rejection in mobile Chrome, Edge.
+ * -- If you open a PWA site in the twitter "browser" window, and even then "open in browser" it may not properly prompt A2HS. Looks like you may have to open the site directly in the browser?
 
 #### Reference Articles  ####
 [Chrome 68 snack-bar ignores preventDefault()](https://developers.google.com/web/updates/2018/06/a2hs-updates){:target="_blank"}
