@@ -16,7 +16,7 @@ Getting users to add a home screen shortcut to your [PWA](https://developers.goo
 <br>
 **[Chrome](https://developers.google.com/web/fundamentals/app-install-banners/){:target="_blank"}** and **[Edge](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/#0eVsoxrHYlso6vcS.97){:target="_blank"}** have implemented prompts to ask the user if they would like to A2HS. These are great, but they may not display at a good time for the user. As with many random prompts, I would guess they are quickly dismissed. You can add logic to add a button to your app to let the user control the A2HS prompt.  
 <br>
-**[FireFox](https://developer.mozilla.org/en-US/Apps/Progressive/Add_to_home_screen){:target="_blank"}** adds a A2HS icon/button to the browser address bar for qualifying PWAs. I would guess that almost all users do not know what that icon does. Currently this icon shows even if it has already been used
+**[FireFox](https://developer.mozilla.org/en-US/Apps/Progressive/Add_to_home_screen){:target="_blank"}** adds a A2HS icon/button to the browser address bar for qualifying PWAs. Currently this icon shows even if it has already been used. 
 
 
 #### Source Code (still in progress)  ####
@@ -65,7 +65,7 @@ You can:
 #### Manual A2HS  #### 
 The browsers below do NOT prompt the user to A2HS, but they do offer a manual option that will then open your PWA in a standalone screen.
  * Opera - Three dots > Home Screen (available for all websites)
- * Firefox - home icon with a plus (+) icon inside it in address bar (qualifying PWA websites only)
+ * Firefox -"home" icon with a plus (+) icon inside it in address bar (qualifying PWA websites only)
 
 
 #### Listen For Install  #### 
