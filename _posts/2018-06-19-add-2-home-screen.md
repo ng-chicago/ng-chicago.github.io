@@ -8,7 +8,7 @@ description: "A stand alone Angular application for testing A2HS (a work in prog
 ---  
 {{ page.description }} For trying to figure out how different browsers handle A2HS.  
 
-Updated Jun 20, 2018
+Updated July 5, 2018
 {:.post-meta}
 
 # A2HS for PWAs Is Big #
@@ -60,7 +60,67 @@ You can:
         // Save the prompt so it can be displayed when the user wants
         this.deferredPrompt = e;    
     }); 
- 
+
+
+#### Manual A2HS iOS & Safari (Sample code working) #### 
+There is no prompt for A2HS, but there is a manual option.  
+When added to the Home Screen:  
+ * iOS 11+ will open PWA as a Standalone window.  
+ * Earlier versions of iOS & Safari will most likely open in the normal Safari window.
+ * iOS 9 or earlier versions may not show the A2HS button
+
+Most users probably do not know it is there, but you can add instructions for when users are in iOS Safari.
+
+
+1. Share button
+       <img height="22" alt="Share Button Image" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIiB4bWxucz0iaHR0cDovL3d3dy5
+   3My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMC44OCAyNy4yNSI+PGRlZnM+PHN0eWxlPi
+   5jbHMtMXtmaWxsOm5vbmU7c3Ryb2tlOiMyMzFmMjA7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5TY
+   WZhcmlfU2hhcmU8L3RpdGxlPjxwb2x5bGluZSBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMTMuMTMg
+   OCAyMC4zOCA4IDIwLjM4IDI2Ljc1IDAuNSAyNi43NSAwLjUgOCA3LjUgOCIvPjxsaW5lIGNsYXN
+   zPSJjbHMtMSIgeDE9IjEwLjQ0IiB5MT0iMTciIHgyPSIxMC40NCIvPjxsaW5lIGNsYXNzPSJjbH
+   MtMSIgeDE9IjEwLjQ4IiB5MT0iMC4zOCIgeDI9IjE1LjI4IiB5Mj0iNS4xOCIvPjxsaW5lIGNsY
+   XNzPSJjbHMtMSIgeDE9IjEwLjQ0IiB5MT0iMC4zOCIgeDI9IjUuNjQiIHkyPSI1LjE4Ii8+PC9z
+   dmc+"> at the (top or bottom) of the browser 
+2. Scroll (if needed) to find the Add to Home Screen button
+       <img height="22" alt="Add to Home Screen button Image" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIiB4bWxucz0iaHR0cDovL3d3dy5
+   3My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNSAzNSI+PHRpdGxlPlNhZmFyaV9BMkhTPC
+   90aXRsZT48cmVjdCB3aWR0aD0iMzUiIGhlaWdodD0iMzUiIHJ4PSI4IiByeT0iOCIgc3R5bGU9I
+   mZpbGw6IzhmOGY4ZiIvPjxsaW5lIHgxPSIyNC43NSIgeTE9IjE3LjUiIHgyPSIxMC4yNSIgeTI9
+   IjE3LjUiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweCIvPjx
+   saW5lIHgxPSIxNy41IiB5MT0iMTAuMjUiIHgyPSIxNy41IiB5Mj0iMjQuNzUiIHN0eWxlPSJmaW
+   xsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweCIvPjwvc3ZnPg==">  
+   
+**Show these instructions if:**
+ * Safari & iOS & Not Standalone
+ * Users of older versions (< 13% ) will still see this message even if they installed.  
+ iOS 10 (8.04%) iOS 11 (86.74%) as of: 07/05/2018
+
+**Note**  
+You will need to add Icons for iOS
+It currently does not use the Manifest Icons
+
+        <!-- place this in a head section -->
+        <link rel="apple-touch-icon" href="/assets/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png">
+
+And images for the iOS standalone splash screens
+If you do not add these, a plain white screen will be shown until the load is complete
+
+        <!-- place this in a head section -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link href="/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image" />
+        <link href="/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image" />
+        <link href="/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
+        <link href="/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image" />
+        <link href="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
+        <link href="/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
+        <link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />
+
+
+
 
 #### Manual A2HS  #### 
 The browsers below do NOT prompt the user to A2HS, but they do offer a manual option that will then open your PWA in a standalone screen.
@@ -115,14 +175,23 @@ Works with these mostly mobile browsers:
  * -- The Prompt could be shown multiple times after rejection in desktop Chrome. It CANNOT be shown after rejection in mobile Chrome, Edge.<br><br>
  * -- If you open a PWA site in the twitter "browser" window, and even then "open in browser" (chrome), it may not properly prompt A2HS. Looks like you may have to open the site directly in the browser?
 
-#### Reference Articles  ####
-[Chrome 68 snack-bar ignores preventDefault()](https://developers.google.com/web/updates/2018/06/a2hs-updates){:target="_blank"}
+#### Reference Articles I Like  ####
+[Chrome 68 snack-bar ignores preventDefault()](https://developers.google.com/web/updates/2018/06/a2hs-updates){:target="_blank"}  
 
-[Google Chrome installs a WebAPK](https://developers.google.com/web/fundamentals/integration/webapks){:target="_blank"}
+[Google Chrome installs a WebAPK](https://developers.google.com/web/fundamentals/integration/webapks){:target="_blank"}  
+
+[PWAs on iOS](https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native){:target="_blank"}  
+
+[Progressive Web App Splash Screens](https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210){:target="_blank"}  
+
+
+
+
+
 
 #### Footnotes  ####
 
-[^1]: There are TWO versions of the Lighthouse audit tool: The one built into the developer tools AND a [Chrome extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk){:target="_blank"} which usually has more recent features.
+[^1]: There are TWO versions of the Lighthouse audit tool: The one built into the developer tools AND a [Chrome extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk){:target="_blank"} which usually has the more recent features.
 
 [^2]: Edge has a second dialog to set the icon where you want on the screen. If the user selects CANCEL here, you may falsely think it was installed if only listening to the first dialog. [I'm not sure yet how to listen to the second dialog.](https://stackoverflow.com/questions/50932302/is-there-a-listener-available-for-the-2nd-add-to-home-screen-dialog-in-edge-an){:target="_blank"}
 
