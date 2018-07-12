@@ -8,7 +8,7 @@ description: "A stand alone Angular application for testing A2HS (a work in prog
 ---  
 {{ page.description }} For trying to figure out how different browsers handle A2HS.  
 
-Updated July 5, 2018
+Last Updated July 12, 2018
 {:.post-meta}
 
 # A2HS for PWAs Is Big #
@@ -23,7 +23,8 @@ Getting users to add a home screen shortcut to your [PWA](https://developers.goo
 [https://github.com/ng-chicago/AddToHomeScreen](https://github.com/ng-chicago/AddToHomeScreen){:target="_blank"}
 
 #### Working Example  ####
-[Running on Glitch](https://a2hs.glitch.me/){:target="_blank"}
+[Running on Glitch (https://a2hs.glitch.me/)](https://a2hs.glitch.me/){:target="_blank"}  
+If you type manually, make sure to include http**s**://
 
 #### Functionality (Chrome & Edge)  ####
 
@@ -110,22 +111,16 @@ And images for the iOS standalone splash screens
 If you do not add these, a plain white screen will be shown until the load is complete
 
         <!-- place this in a head section -->
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link href="/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image" />
-        <link href="/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image" />
-        <link href="/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
-        <link href="/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image" />
-        <link href="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
-        <link href="/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
-        <link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />
-
-
-
-
-#### Manual A2HS  #### 
-The browsers below do NOT prompt the user to A2HS, but they do offer a manual option that will then open your PWA in a standalone screen.
- * Opera - Three dots > Home Screen (available for all websites)
- * Firefox -"home" icon with a plus (+) icon inside it in address bar (qualifying PWA websites only)
+          <meta name="apple-mobile-web-app-capable" content="yes">
+          <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+          <meta name="apple-mobile-web-app-title" content="A2HS Test">
+          <link rel="apple-touch-startup-image" href="assets/splash/apple_splash_640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+          <link rel="apple-touch-startup-image" href="assets/splash/apple_splash_750.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+          <link rel="apple-touch-startup-image" href="assets/splash/apple_splash_1242.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+          <link rel="apple-touch-startup-image" href="assets/splash/apple_splash_1125.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+          <link rel="apple-touch-startup-image" href="assets/splash/apple_splash_1536.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+          <link rel="apple-touch-startup-image" href="assets/splash/apple_splash_1668.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+          <link rel="apple-touch-startup-image" href="assets/splash/apple_splash_2048.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
 
 
 #### Listen For Install  #### 
@@ -136,19 +131,9 @@ You can listen for when the app is added to the home screen in Chrome & Edge[^2]
         // if installed, call Google Analytics to track?
     });
   
-#### Launched from Home Screen (standalone)  #### 
-You can detect if your app was opened from a button on the home screen.[^3]   
-Works with these mostly mobile browsers:
- * Chrome 67.0.3396.87
- * Chrome beta 68.0.3440.23
- * Firefox 60.0.2
- * <s>Firefox beta 61.0b13 - DOES NOT WORK</s>
- * Opera 46.3.2246.127744
- * Edge 42.0.0.2033
- * Desktop Chrome 67.0.3396.87
- * <s>Desktop Chrome 69.0.3464.0 canary - DOES NOT WORK</s>
+#### Standalone Detection (see grid below)  #### 
     
-<strong>In your CSS</strong>  
+**In your CSS**  
 
         @media all and (display-mode: standalone) {
           body {
@@ -182,10 +167,30 @@ Works with these mostly mobile browsers:
 
 [PWAs on iOS](https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native){:target="_blank"}  
 
+[iOS Splash Screens - This works (mostly?)](https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210){:target="_blank"}  
+
 [Progressive Web App Splash Screens](https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210){:target="_blank"}  
 
 
 
+#### A2HS OS & Browser Combos Coded/Tested So Far ####
+
+| Combo         | A2HS Type   | Notes  | Standalone  |
+| ------------- |:-------------|:-----|:-----|
+| Android 8.10<br>Chrome 67 | Prompt Intercepted<br>Custom btn shown | WebApk Installed | Detected<br>Custom btn hidden | 
+| Android 8.10<br>Chrome 68 (beta) | Prompt Intercepted<br>Custom btn shown | WebApk Installed<br>[See temp snack-bar note here](https://developers.google.com/web/updates/2018/06/a2hs-updates){:target="_blank"}  | Detected<br>Custom btn  hidden | 
+| Android 8.10<br>Edge 42 | Prompt Intercepted<br>Custom btn shown | Shortcut added | Detected<br>Custom btn hidden | 
+| iOS 11.4<br>Safari<br>(simulator)    | Manual how to shown     | Shortcut added<br>[Extra work needed for iOS icons & Splash Screens](https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native){:target="_blank"} | Detected<br>How to  hidden |   
+| iOS 9.3.5<br>Safari<br>(iPod)     | Manual how to shown | Shortcut added |  &#10060;Semi-standalone?<br>Not detected,<br>not Safari<br>How to hidden |  
+| iOS 9.3.5<br>Chrome 63<br>(iPod)     | Manual how to shown     | &#10060;No A2HS option available | n/a |   
+| Android 8.10<br>Firefox 61     | Manual how to shown     | Shortcut added |  &#10060;No standalone<br> &#10060;How to shows |   
+| Android 8.10<br>Firefox 62 (beta)     | Manual how to shown     | Shortcut added | Detected<br>How to  hidden |  
+| Android 8.10<br>Opera 43 | &#10060;**Need to add<br>how to code** | Shortcut added | Detected<br>How to  hidden |  
+
+
+#### To Do - Add code to show these instructions.  #### 
+ * Opera - Three dots > Home Screen (available for all websites)
+ * Firefox -"home" icon with a plus (+) icon inside it in address bar (qualifying PWA websites only)
 
 
 
