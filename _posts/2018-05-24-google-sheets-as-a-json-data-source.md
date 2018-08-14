@@ -55,7 +55,7 @@ That will give you [JSON like this](https://spreadsheets.google.com/feeds/list/1
 [AllOthers tab](https://spreadsheets.google.com/feeds/list/1bPW98SzQ5SRsincyVGdP3ctM8ey3oSpncnyo9ASFUDM/od6/public/full?alt=json){:target="_blank"}  
 <br/><br/>
 ### Notes
-1. It may take up to 5 minutes published changes made in the sheet. Usually happens in a few seconds.   
+1. It may take up to 5 minutes to see published changes made in the sheet. Usually happens in a few seconds.   
 2. The IDs for the sheet & tabs never changes. Even if they are renamed.  
 3. Somehow it's smart enough to know the first row is the header.  
         (I used: *view > freeze > 1 row* on the first row )  
