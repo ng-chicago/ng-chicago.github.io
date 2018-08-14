@@ -13,7 +13,12 @@ I wanted a perfect base PWA to use as a starting point for new apps.
 By applying the few extra steps listed below, I was able to get an [almost perfect](#almost) score.  
 All very simple.  
 
-![My score]({{ "/assets/posts/2018/2018-05-18-BasePWA.png" | absolute_url }})
+![My score]({{ "/assets/posts/2018/2018-05-18-BasePWA.png" | absolute_url }})  
+
+[GitHub Source](https://github.com/ng-chicago/AngularBasePWA){:target="_blank"}  
+
+[running version @ Glitch.Me](https://angularbasepwa.glitch.me/){:target="_blank"}
+
 
 ## Creation steps
 
@@ -72,8 +77,5 @@ All very simple.
     Some browser Extensions will slow down things and lower scores  
         (turn them all off while testing)   
         
-[GitHub Source](https://github.com/ng-chicago/AngularBasePWA){:target="_blank"}  
 
-  
-[running version @ Glitch.Me](https://angularbasepwa.glitch.me/){:target="_blank"}
 
