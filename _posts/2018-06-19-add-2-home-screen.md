@@ -154,11 +154,15 @@ You can listen for when the app is added to the home screen in Chrome & Edge[^2]
  * Add logic to detect browser & version?
  * Test what happens if prompt is placed in local storage
 
-#### Random Notes  ####
+#### Random Notes ####
  * -- Clearing browsing data in Edge sometimes does not stop spinning? (06/19/2018)<br><br>
  * -- If you open the app from the Chrome Desktop apps screen, it may open a standalone window, but not give focus to that window (Mac Chrome). You can access the app from the new icon in the dock.<br><br>
  * -- The Prompt could be shown multiple times after rejection in desktop Chrome. It CANNOT be shown after rejection in mobile Chrome, Edge.<br><br>
  * -- If you open a PWA site in the twitter "browser" window, and even then "open in browser" (chrome), it may not properly prompt A2HS. Looks like you may have to open the site directly in the browser?
+ 
+#### Goofiness ####
+  * If you FIRST install the WebAPK with Chrome
+ 
 
 #### Reference Articles I Like  ####
 [Chrome 68 snack-bar ignores preventDefault()](https://developers.google.com/web/updates/2018/06/a2hs-updates){:target="_blank"}  

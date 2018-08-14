@@ -9,14 +9,14 @@ description: "When you need a read-only JSON data source that is very simple for
 ---
 {{ page.description }} It's not very obvious that you can get JSON from a sheet, but it can be done in 4 steps.  
 <br/>
-### 1. Get the ID of your sheet
+### 1. Get the ID of your sheet  
 The long number seen in the URL <ins>while you are editing</ins>  
 e.g.  
 _https://docs.google.com/spreadsheets/d/**1bPW98SzQ5SRsincyVGdP3ctM8ey3oSpncnyo9ASFUDM**/edit#gid=0_  
 yourSheetID = _**1bPW98SzQ5SRsincyVGdP3ctM8ey3oSpncnyo9ASFUDM**_  
 (this is the ID for my sheet, not yours)  
 <br/>
-### 2. Publish your sheet as a web page 
+### 2. Publish your sheet as a web page  
     File > Publish to the web...  
     
 The default options are fine.
