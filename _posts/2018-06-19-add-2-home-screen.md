@@ -159,9 +159,12 @@ You can listen for when the app is added to the home screen in Chrome & Edge[^2]
  * -- If you open the app from the Chrome Desktop apps screen, it may open a standalone window, but not give focus to that window (Mac Chrome). You can access the app from the new icon in the dock.<br><br>
  * -- The Prompt could be shown multiple times after rejection in desktop Chrome. It CANNOT be shown after rejection in mobile Chrome, Edge.<br><br>
  * -- If you open a PWA site in the twitter "browser" window, and even then "open in browser" (chrome), it may not properly prompt A2HS. Looks like you may have to open the site directly in the browser?
+  * -- Depending on the version of Desktop Chrome you are using, you may need to turn on A2HS Here (chrome://flags/#enable-desktop-pwas)
+ 
+
  
 #### Goofiness ####
-  * If you FIRST install the WebAPK with Chrome
+  * If you FIRST install the WebAPK with Chrome, the prompt will NOT be shown in Edge. They will be fixing this.
  
 
 #### Reference Articles I Like  ####
