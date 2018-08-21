@@ -164,7 +164,7 @@ You can listen for when the app is added to the home screen in Chrome & Edge[^2]
 
  
 #### Goofiness ####
-  * If you FIRST install the WebAPK with Chrome, the prompt will NOT be shown in Edge. They will be fixing this.
+  * If you FIRST install the WebAPK with Chrome, the prompt will NOT be shown in Edge. They will be fixing this soon.
  
 
 #### Reference Articles I Like  ####
