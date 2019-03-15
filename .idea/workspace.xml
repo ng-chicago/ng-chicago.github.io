@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8eee69a-8ba3-42bf-bcdc-ea1f10a5003e" name="Default" comment="minor tweaking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-24-google-sheets-as-a-json-data-source.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-24-google-sheets-as-a-json-data-source.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,35 +17,36 @@
     <session id="1856642823">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="11" />
+          <entry key="md" value="233" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="11" />
+          <entry key="Markdown" value="233" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -61,24 +60,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="314">
-                <caret line="162" column="14" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
+              <first_editor relative-caret-position="69">
+                <caret line="166" column="117" selection-start-line="166" selection-start-column="117" selection-end-line="166" selection-end-column="117" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-24-google-sheets-as-a-json-data-source.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="360">
+              <first_editor relative-caret-position="324">
                 <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="324">
+                <caret line="18" selection-start-line="18" selection-end-line="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -165,7 +176,6 @@
         <option value="$PROJECT_DIR$/_posts/2018-05-18-angular-upgrade-5.2.9-to-6.md" />
         <option value="$PROJECT_DIR$/_drafts/base-angular-6-pwa-with-perfect-audit-score.md" />
         <option value="$PROJECT_DIR$/_drafts/base-angular-6-pwa.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md" />
         <option value="$PROJECT_DIR$/assets/keybase.svg" />
         <option value="$PROJECT_DIR$/_includes/social.html" />
         <option value="$PROJECT_DIR$/_includes/social.html" />
@@ -179,8 +189,9 @@
         <option value="$PROJECT_DIR$/_drafts/google-sheets-to-firebase.md" />
         <option value="$PROJECT_DIR$/_drafts/add-2-home-screen.md" />
         <option value="$PROJECT_DIR$/assets/main.scss" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-24-google-sheets-as-a-json-data-source.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md" />
       </list>
     </option>
   </component>
@@ -190,11 +201,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
     <option name="y" value="23" />
-    <option name="width" value="1374" />
-    <option name="height" value="859" />
+    <option name="width" value="1379" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,6 +340,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,34 +380,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525610802190</updated>
-    </task>
-    <task id="LOCAL-00002" summary="changing external links to target blank">
-      <created>1525615245217</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1525615245217</updated>
-    </task>
-    <task id="LOCAL-00003" summary="testing override">
-      <created>1525617915996</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1525617915996</updated>
-    </task>
-    <task id="LOCAL-00004" summary="updating tag styling, description &amp; author">
-      <created>1525642014027</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1525642014027</updated>
-    </task>
-    <task id="LOCAL-00005" summary="typo correction">
-      <created>1525642353169</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1525642353169</updated>
     </task>
     <task id="LOCAL-00006" summary="working on comments section">
       <created>1525649678406</created>
@@ -713,14 +696,42 @@
       <option name="project" value="LOCAL" />
       <updated>1534208358758</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="minor tweaking">
+      <created>1534253094419</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1534253094420</updated>
+    </task>
+    <task id="LOCAL-00052" summary="minor tweaking">
+      <created>1534253257198</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1534253257198</updated>
+    </task>
+    <task id="LOCAL-00053" summary="minor tweaking">
+      <created>1534862327387</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1534862327396</updated>
+    </task>
+    <task id="LOCAL-00054" summary="minor tweaking">
+      <created>1534862567725</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1534862567725</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="23" width="1374" height="877" extended-state="6" />
+    <frame x="61" y="23" width="1379" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33407244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3335788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -731,9 +742,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4796748" visible="true" weight="0.3172952" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.47864506" visible="true" weight="0.3172952" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5203252" side_tool="true" visible="true" weight="0.3172952" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5213549" side_tool="true" visible="true" weight="0.3172952" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -769,9 +780,9 @@
     <MESSAGE value="updating logo" />
     <MESSAGE value="working on pagination and excerpts" />
     <MESSAGE value="working on pagination" />
-    <MESSAGE value="minor tweaking" />
     <MESSAGE value="correcting grammar error" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcting grammar error" />
+    <MESSAGE value="minor tweaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor tweaking" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_includes/footer.html" />
@@ -874,16 +885,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/keybase.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="407">
-            <caret line="24" column="23" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1020,8 +1021,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-19-add-2-home-screen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="314">
-            <caret line="162" column="14" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
+          <first_editor relative-caret-position="69">
+            <caret line="166" column="117" selection-start-line="166" selection-start-column="117" selection-end-line="166" selection-end-column="117" />
           </first_editor>
           <second_editor />
         </state>
@@ -1030,8 +1031,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-24-google-sheets-as-a-json-data-source.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="360">
+          <first_editor relative-caret-position="324">
             <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-18-base-angular-6-pwa.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
         </state>
