@@ -4,14 +4,14 @@ title: "Web Push Notifications - Part 1"
 date: 2019-03-20 07:30:44 -0500
 tags: [Angular, Chrome, Firefox, 'Push API']
 comments: true
-description: "Steps taken to add push notifications to an angular app"
+description: "Steps taken to add push notifications to an angular app"  
 ---  
 {{ page.description }} Creating Opt-In Push Notifications.  
 
 Last Updated March 20, 2019
 {:.post-meta}
 
-# A2HS for PWAs Is Big #
+# Most notification requests are ANNOYING #
 Getting users to add a home screen shortcut to your [PWA](https://developers.google.com/web/progressive-web-apps/){:target="_blank"} will greatly increase it's use. Since PWAs are relatively new, there is no constancy with how different browsers handle A2HS. It is a moving target.  
 <br>
 **[Chrome](https://developers.google.com/web/fundamentals/app-install-banners/){:target="_blank"}** and **[Edge](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/#0eVsoxrHYlso6vcS.97){:target="_blank"}** have implemented prompts to ask the user if they would like to A2HS. These are great, but they may not display at a good time for the user. As with many random prompts, I would guess they are quickly dismissed. You can add logic to add a button to your app to let the user control the A2HS prompt.  
