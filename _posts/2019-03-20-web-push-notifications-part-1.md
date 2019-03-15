@@ -4,7 +4,7 @@ title: "Web Push Notifications - Part 1"
 date: 2019-03-20 07:30:44 -0500
 tags: [Angular, Chrome, Firefox, 'Push API']
 comments: true
-description: "Steps taken to add push notifications to an angular app"  
+description: "Steps taken to add push notifications to an angular app."  
 ---  
 {{ page.description }} Creating Opt-In Push Notifications.  
 
@@ -210,5 +210,22 @@ You can listen for when the app is added to the home screen in Chrome & Edge[^2]
 [^3]: Last tested using Android 8.1.0 on 06/20/2018.
 
 
+### App Creation steps  ### 
+#### Clone existing blank PWA  ####  
+I'm using an empty base verified angular PWA so I don't have to repeat the same basic steps again.  
 
+**At GitHub Site**  
+Create new empty repository *WebNotificationsPart1*
 
+**In Terminal Window (mac)**
+
+    mkdir WebNotificationsPart1
+    cd WebNotificationsPart1
+    git clone https://github.com/ng-chicago/AngularBasePWA.git .
+    git remote set-url origin https://github.com/ng-chicago/WebNotificationsPart1.git
+    git push -u origin master
+    npm install
+
+**Just in case, run** 
+
+    ng update
