@@ -4,7 +4,7 @@ title: "Web Push Notifications - Part 1"
 date: 2019-03-20 07:30:44 -0500
 tags: [Angular, Chrome, Firefox, 'Push API']
 comments: true
-description: "Steps taken to add push notifications to an angular app."  
+description: "Adding push notifications to an Angular PWA."  
 ---  
 {{ page.description }} Creating Opt-In Push Notifications.  
 
@@ -17,6 +17,14 @@ Getting users to add a home screen shortcut to your [PWA](https://developers.goo
 **[Chrome](https://developers.google.com/web/fundamentals/app-install-banners/){:target="_blank"}** and **[Edge](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/#0eVsoxrHYlso6vcS.97){:target="_blank"}** have implemented prompts to ask the user if they would like to A2HS. These are great, but they may not display at a good time for the user. As with many random prompts, I would guess they are quickly dismissed. You can add logic to add a button to your app to let the user control the A2HS prompt.  
 <br>
 **[FireFox](https://developer.mozilla.org/en-US/Apps/Progressive/Add_to_home_screen){:target="_blank"}** adds a A2HS icon/button to the browser address bar for qualifying PWAs. Currently this icon shows even if it has already been used. 
+
+
+<br>
+**[Push api vs Web Notifications.](https://stackoverflow.com/questions/34844561/difference-between-notifications-api-and-push-api-from-web-perspective){:target="_blank"}** 
+
+
+
+
 
 
 #### Source Code (still in progress)  ####
@@ -210,9 +218,9 @@ You can listen for when the app is added to the home screen in Chrome & Edge[^2]
 [^3]: Last tested using Android 8.1.0 on 06/20/2018.
 
 
-### App Creation steps  ### 
-#### Clone existing blank PWA  ####  
-I'm using an empty base verified angular PWA so I don't have to repeat the same basic steps again.  
+## App Creation steps  ## 
+#### Clone an existing blank PWA  ####  
+I'm using an empty base verified Angular 7 PWA so I don't have to repeat the same basic steps again.  
 
 **At GitHub Site**  
 Create new empty repository *WebNotificationsPart1*
