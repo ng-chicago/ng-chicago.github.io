@@ -4,12 +4,15 @@ title: "Web Push Notifications - Part 1"
 date: 2019-03-20 07:30:44 -0500
 tags: [Angular, Chrome, Firefox, 'Push API']
 comments: true
-description: "Adding push notifications to an Angular PWA."  
+description: "Enabling browser notifications in an Angular PWA."  
 ---  
 {{ page.description }} Creating Opt-In Push Notifications.  
 
 Last Updated March 20, 2019
 {:.post-meta}
+
+# Push Notifications Are Hampered By Many Browser Variations #
+
 
 # Most notification requests are ANNOYING #
 Getting users to add a home screen shortcut to your [PWA](https://developers.google.com/web/progressive-web-apps/){:target="_blank"} will greatly increase it's use. Since PWAs are relatively new, there is no constancy with how different browsers handle A2HS. It is a moving target.  
